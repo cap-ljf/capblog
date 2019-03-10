@@ -25,4 +25,6 @@
 `C:\Program Files\Java\jdk-11.0.1`
 **JAVA_HOME**
 `%JAVA11_HOME%`
-上面将`JAVA_HOME`设置为``
+**CLASSPATH**
+``
+上面将`JAVA_HOME`设置为`%JAVA11_HOME%`就是选择生效的jdk版本为11，如果想要jdk8生效就改为`JAVA8_HOME`。
