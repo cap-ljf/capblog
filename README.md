@@ -1,2 +1,2 @@
 # capblog
-capblog = Captain blog（船长博客）
+capblog = Captain's blog（船长博客）
