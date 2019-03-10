@@ -20,4 +20,9 @@
 
 在系统变量中设置以下变量：
 **JAVA8_HOME**
-
+`C:\Program Files\Java\jdk1.8.0_161`
+**JAVA11_HOME**
+`C:\Program Files\Java\jdk-11.0.1`
+**JAVA_HOME**
+`%JAVA11_HOME%`
+上面将`JAVA_HOME`设置为``
