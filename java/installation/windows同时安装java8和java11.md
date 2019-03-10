@@ -27,6 +27,8 @@
 `%JAVA11_HOME%`
 **CLASSPATH**
 `.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar`
-**Path** 
+在**Path** 变量最前面加上
 `%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`
 上面将`JAVA_HOME`设置为`%JAVA11_HOME%`就是选择生效的jdk版本为11，如果想要jdk8生效就改为`JAVA8_HOME`。
+
+这时再打开`cmd`输入`java -version`，结果：
