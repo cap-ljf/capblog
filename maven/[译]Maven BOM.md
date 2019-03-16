@@ -137,5 +137,20 @@ artifact’s 版本的顺序是：
 
 为了克服这类问题，Maven提供了BOM依赖的概念。
 
-我们可以 
+我们可以 在dependencyManagement节点中导入spring-framework-bom来保证所有Spring的依赖都是相同的version：
+```xml
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-framework-bom</artifactId>
+            <version>4.3.8.RELEASE</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+```
+
+
 
