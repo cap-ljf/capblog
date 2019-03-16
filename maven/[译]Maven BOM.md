@@ -159,5 +159,5 @@ artifact’s 版本的顺序是：
 
 简单的说，我们可以继承或者import BOM，来使用它的便利。
 
-本篇文章的示例代码在
+本篇文章的示例代码在[github](https://github.com/eugenp/tutorials/tree/master/spring-bom)上
 
