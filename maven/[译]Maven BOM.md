@@ -10,5 +10,8 @@ Maven Bom
 ## 2. 依赖管理概念
 为了理解什么是BOM，我们怎么使用它，我们首先需要知道基本概念。
 
-### 2.1 什么是Maven POM
-Maven POM是一个XML文件，里面包含了Maven用来导入依赖关系和构建项目的
+### 2.1 什么是Maven POM？
+Maven POM是一个XML文件，里面包含了Maven用来导入依赖关系和构建项目的信息、配置。
+
+### 2.2 什么是Maven BOM？
+BOM代表
