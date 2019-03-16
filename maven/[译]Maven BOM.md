@@ -96,4 +96,30 @@ Maven 可以自动发现我们的依赖dependencies 依赖的其他项目，并�
 
 我们也可以import the BOM。
 
-在大型项目中，继承的方法不是很有效，因为在POM文件里只能继承一个
+在大型项目中，继承的方法不是很有效，因为在POM文件里只能继承一个parent。import是另外一种方法来导入BOM文件。
+
+让我们看一下如果在pom文件里import一个BOM文件：
+```xml
+<project ...>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>baeldung</groupId>
+    <artifactId>Test</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Test</name>
+     
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>baeldung</groupId>
+                <artifactId>Baeldung-BOM</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
+```
+
+### 2.6 
