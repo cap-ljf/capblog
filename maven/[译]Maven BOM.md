@@ -157,5 +157,7 @@ artifact’s 版本的顺序是：
 ## 4. 总结
 在这篇文章里，我们展示了  Maven Bill-Of-Material 的概念，和如何集中管理POM文件中的artifact’s信息和版本。
 
-简单的说，
+简单的说，我们可以继承或者import BOM，来使用它的便利。
+
+本篇文章的示例代码在
 
