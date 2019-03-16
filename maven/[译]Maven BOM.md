@@ -130,4 +130,8 @@ artifact’s 版本的顺序是：
 4. 依赖调节
 
 - 我们可以在项目中显示声明artifact的版本
-- 如果一个artifact 在两个
+- 如果一个artifact 在两个import的pom里版本不一致，那么以先import的BOM版本为准。
+
+## 3. Spring BOM
+
+
