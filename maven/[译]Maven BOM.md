@@ -129,4 +129,5 @@ artifact’s 版本的顺序是：
 3. import pom里的版本。跟import的顺序有关；
 4. 依赖调节
 
-- 我们
+- 我们可以在项目中显示声明artifact的版本
+- 如果一个artifact 在两个
