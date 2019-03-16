@@ -124,4 +124,6 @@ Maven 可以自动发现我们的依赖dependencies 依赖的其他项目，并�
 
 ### 2.6 覆盖BOM依赖
 artifact’s 版本的顺序是：
-1. 在我们项目pom里
+1. 在我们项目pom里直接声明的artifact’s 版本；
+2. 父项目中的版本；
+3. 
