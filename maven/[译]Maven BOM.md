@@ -33,6 +33,41 @@ Maven 可以自动发现我们的依赖dependencies 依赖的其他项目，并�
 
 ### 2.4 依赖管理
 简单的说，依赖管理是集中管理依赖信息的机制。
+
 当我们有一个项目集继承了一个公共的parent，那把所有依赖信息放进一个共享的POM文件里，这个POM文件就称之为BOM。
 
+下面是怎么写BOM文件的例子：
+```xml
+<project ...>
+     
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>baeldung</groupId>
+    <artifactId>Baeldung-BOM</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>BaelDung-BOM</name>
+    <description>parent pom</description>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>test</groupId>
+                <artifactId>a</artifactId>
+                <version>1.2</version>
+            </dependency>
+            <dependency>
+                <groupId>test</groupId>
+                <artifactId>b</artifactId>
+                <version>1.0</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>test</groupId>
+                <artifactId>c</artifactId>
+                <version>1.0</version>
+                <scope>compile</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
+```
 
