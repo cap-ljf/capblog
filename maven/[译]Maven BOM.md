@@ -76,3 +76,21 @@ Maven 可以自动发现我们的依赖dependencies 依赖的其他项目，并�
 ### 2.5 使用BOM文件
 在项目中有两种方式使用前面定义的BOM文件，这样就不用担心版本冲突的问题了。
 
+第一种，使用parent节点继承BOM文件。
+```xml
+<project ...>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>baeldung</groupId>
+    <artifactId>Test</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Test</name>
+    <parent>
+        <groupId>baeldung</groupId>
+        <artifactId>Baeldung-BOM</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+</project>
+```
+可以看到我们的Test项目继承了Baeldung-BOM。
+
