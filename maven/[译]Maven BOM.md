@@ -94,3 +94,6 @@ Maven 可以自动发现我们的依赖dependencies 依赖的其他项目，并�
 ```
 可以看到我们的Test项目继承了Baeldung-BOM。
 
+我们也可以import the BOM。
+
+在大型项目中，继承的方法不是很有效，因为在POM文件里只能继承一个
