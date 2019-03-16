@@ -133,5 +133,5 @@ artifact’s 版本的顺序是：
 - 如果一个artifact 在两个import的pom里版本不一致，那么以先import的BOM版本为准。
 
 ## 3. Spring BOM
-
+我们可能引入一个第三方的库，或者其他Spring 项目，导致引入一个
 
