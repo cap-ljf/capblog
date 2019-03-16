@@ -126,4 +126,7 @@ Maven 可以自动发现我们的依赖dependencies 依赖的其他项目，并�
 artifact’s 版本的顺序是：
 1. 在我们项目pom里直接声明的artifact’s 版本；
 2. 父项目中的版本；
-3. 
+3. import pom里的版本。跟import的顺序有关；
+4. 依赖调节
+
+- 我们
