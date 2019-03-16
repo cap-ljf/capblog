@@ -14,4 +14,6 @@ Maven Bom
 Maven POM是一个XML文件，里面包含了Maven用来导入依赖关系和构建项目的信息、配置。
 
 ### 2.2 什么是Maven BOM？
-BOM代表了Bill Of Materials。BOM是一种特殊的POM，用于控制项目依赖的版本控制，并提供了一个
+BOM代表了Bill Of Materials。BOM是一种特殊的POM，用于控制项目依赖的版本控制，并提供了一个中心地方来定义、升级它们的版本。
+
+### 2.3 依赖传递
