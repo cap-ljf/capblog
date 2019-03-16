@@ -27,3 +27,4 @@ Maven 可以自动发现我们的依赖dependencies 依赖的其他项目，并�
 ```A -> B -> C -> D 1.4  and  A -> E -> D 1.0 ```
 这个例子展示了项目A依赖B和E，B和E自身又依赖于D的不同版本。Artifact D 1.0最终会被项目A引用因为它的path更短。
 
+由于引用了Artifact D 1.0，会
