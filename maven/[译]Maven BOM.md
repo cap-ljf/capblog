@@ -74,3 +74,5 @@ Maven 可以自动发现我们的依赖dependencies 依赖的其他项目，并�
 如我们所见，BOM就是一个用dependencyManagement节点管理所有artifact’s 信息和版本的POM文件。
 
 ### 2.5 使用BOM文件
+在项目中有两种方式使用前面定义的BOM文件，这样就不用担心版本冲突的问题了。
+
