@@ -21,7 +21,7 @@ Cmder是一个软件包，诞生的原因是因为windows下缺少好用的控�
 ``` 
 Cmder.exe /REGISTER ALL
 ```
-
+![image.png](3)
 
 
 ## 常用快捷键
@@ -41,3 +41,4 @@ Cmder.exe /REGISTER ALL
 `Ctrl + r`: 搜索历史命令
 `Shift + mouse / 左键选择`: 复制文本
 `Right click / Ctrl + Shift + v`: 粘贴文本
+
