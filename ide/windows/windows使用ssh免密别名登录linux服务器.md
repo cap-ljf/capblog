@@ -31,5 +31,8 @@ cat xxx.pub
 chmod 600 authorized_keys
 service sshd restart
 ```
-
-### 三级标题
+然后在本机使用ssh命令重新登录linux服务器，就不用输入密码了：
+```
+ssh -p 端口 username@host
+```
+如果你发现
