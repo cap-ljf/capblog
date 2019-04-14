@@ -40,4 +40,7 @@ ssh -p 端口 username@host
 ssh -i 私钥目录地址 -p 端口 username@host
 ```
 
-## 二级标题
+## ssh别名登录
+在本机.ssh目录新建一个config文件：
+内容如下：
+
