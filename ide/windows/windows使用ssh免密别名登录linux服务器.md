@@ -35,4 +35,9 @@ service sshd restart
 ```
 ssh -p 端口 username@host
 ```
-如果你发现
+如果你发现还要输入密码，那有可能是本机使用的私钥不正确，可能你的.ssh目录下有多个私钥，可以使用-i命令指定私钥：
+```
+ssh -i 私钥目录地址 -p 端口 username@host
+```
+
+## 二级标题
