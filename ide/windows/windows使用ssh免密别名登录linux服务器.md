@@ -14,4 +14,4 @@ SSH（Secure Shell）是一种通信加密协议，加密算法包括：RSA、DS
 ### 2.1 安装ssh
 安装Cmder，或者其他工具，只要能在window下使用ssh命令即可。
 
-### 1.2 
+### 2.2 生成
