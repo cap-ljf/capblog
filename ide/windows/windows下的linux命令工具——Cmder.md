@@ -42,3 +42,5 @@ Cmder.exe /REGISTER ALL
 `Shift + mouse / 左键选择`: 复制文本
 `Right click / Ctrl + Shift + v`: 粘贴文本
 
+参考文献：
+> [](https://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/)
