@@ -25,4 +25,5 @@ ssh-keygen -t rsa -f 'xxx' -C "xxx"
 ```
 cat xxx.pub
 ```
-将公钥内容拷贝，然后登陆linux服务器，在~/.ssh/auto
+将公钥内容拷贝，然后登陆linux服务器，在~/.ssh下看有没有 authorized_keys文件，如果没有就新建一个。把公钥内容追加到authorized_keys里。
+修改authorized_keys文件的
