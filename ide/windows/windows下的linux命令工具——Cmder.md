@@ -43,4 +43,5 @@ Cmder.exe /REGISTER ALL
 `Right click / Ctrl + Shift + v`: 粘贴文本
 
 参考文献：
-> [](https://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/)
+> 1.[Win下必备神器之Cmder](https://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/)
+> 2.[https://cmder.net/](https://cmder.net/)
