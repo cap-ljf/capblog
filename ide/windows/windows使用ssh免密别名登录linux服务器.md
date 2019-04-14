@@ -22,3 +22,7 @@ ssh-keygen -t rsa -f 'xxx' -C "xxx"
 -t参数指定密钥类型，-f指定生成的密钥文件名称 -C提供一个新注释（如果生成github和gitlab的文件要使用邮箱账号）
 
 ### 2.3 将公钥拷贝到linux服务器
+```
+cat xxx.pub
+```
+将公钥内容拷贝，然后登陆linux服务器，在~/.ssh/auto
