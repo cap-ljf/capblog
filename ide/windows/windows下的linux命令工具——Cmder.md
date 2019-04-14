@@ -10,5 +10,5 @@ Cmder是一个软件包，诞生的原因是因为windows下缺少好用的控�
 ## 常用快捷键
 
 **Tab manipulation**
-` Ctrl + `` :全局切换任务栏
-`Win + Alt + p`
+`` Ctrl + ` ``: 全局切换任务栏
+`Win + Alt + p`: 
