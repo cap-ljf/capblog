@@ -20,4 +20,6 @@ Cmder是一个软件包，诞生的原因是因为windows下缺少好用的控�
 `Alt + Enter`: 全屏/退出全屏
 
 **Shell**
-`Ctrl + Alt + u`: 遍历当前目录结构
+`Ctrl + Alt + u`: 回退到上一个目录
+`Ctrl + r`: 搜索历史命令
+
