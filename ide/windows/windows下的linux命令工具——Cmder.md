@@ -7,8 +7,11 @@ Cmder官网：[https://cmder.net/](https://cmder.net/)
 *Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start.*
 Cmder是一个软件包，诞生的原因是因为windows下缺少好用的控制台模拟器。它基于令人惊叹的软件，并采用Monokai配色方案和自定义快速布局，从一开始就看起来很性感。
 
-## 启动Cmder
-软件解压之后直接双击`Cmder.exe`文件即可运行。但是每次都要这样打开很麻烦，你也可以选择把它固定到任务栏，但是每次打开之后进入的目录都是Cmder的解压目录。
+## 2.启动Cmder
+软件解压之后直接双击`Cmder.exe`文件即可运行。但是每次都要这样打开很麻烦，你也可以选择把它固定到任务栏，但是每次打开之后进入的目录都是Cmder的解压目录。这里介绍两种方法方便启动Cmder：
+### 2.1 cmder添加环境变量
+
+
 
 ## 常用快捷键
 
