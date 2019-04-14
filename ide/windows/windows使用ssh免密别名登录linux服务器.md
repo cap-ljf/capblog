@@ -17,5 +17,6 @@ SSH（Secure Shell）是一种通信加密协议，加密算法包括：RSA、DS
 ### 2.2 本机window下生成私钥公钥
 使用`ssh-keygen`命令生成私钥公钥：
 ```
-ssh-keygen -t rsa -f 'xxx' -C 
+ssh-keygen -t rsa -f 'xxx' -C "xxx"
 ```
+-t参数指定密钥类型，-f指定
