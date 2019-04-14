@@ -43,4 +43,22 @@ ssh -i 私钥目录地址 -p 端口 username@host
 ## ssh别名登录
 在本机.ssh目录新建一个config文件：
 内容如下：
+```
+Host www
+    HostName www.ttlsa.com
+    Port 22
+    User root
+    IdentityFile  ~/.ssh/id_rsa.pub
+    IdentitiesOnly yes
 
+Host bbs
+    HostName 115.28.45.104
+    User anotheruser
+    PubkeyAuthentication no
+```
+*注：config文件同样需要是600权限，用chmod 600 config修改，windows下可能不修改*
+
+然后使用别名登录：
+```
+ssh www
+```
