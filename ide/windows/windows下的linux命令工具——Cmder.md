@@ -11,4 +11,5 @@ Cmder是一个软件包，诞生的原因是因为windows下缺少好用的控�
 
 **Tab manipulation**
 `` Ctrl + ` ``: 全局切换任务栏
-`Win + Alt + p`: 
+`Win + Alt + p`: 偏好设置（或者右键Tab标题）
+`Ctrl + t`: 打开一个新Tab
