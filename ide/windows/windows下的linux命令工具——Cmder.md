@@ -5,4 +5,4 @@ Cmder官网：[https://cmder.net/](https://cmder.net/)
 ![image.png](0)
 官网介绍：
 *Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start.*
-Cmder是一款
+Cmder是一个软件包，诞生的原因是因为windows下
