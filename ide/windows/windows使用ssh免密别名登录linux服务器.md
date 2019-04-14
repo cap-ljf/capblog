@@ -62,3 +62,8 @@ Host bbs
 ```
 ssh www
 ```
+Done，接下来就高效的使用ssh命令登录服务器吧。
+
+参考文献：
+> 1. [ssh 别名登录](https://blog.csdn.net/zhanlanmg/article/details/48708255)
+> 2. [SSH免密登录原理及实现](https://blog.csdn.net/qq_26907251/article/details/78804367)
