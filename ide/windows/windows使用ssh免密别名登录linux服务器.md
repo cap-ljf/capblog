@@ -19,4 +19,4 @@ SSH（Secure Shell）是一种通信加密协议，加密算法包括：RSA、DS
 ```
 ssh-keygen -t rsa -f 'xxx' -C "xxx"
 ```
--t参数指定密钥类型，-f指定
+-t参数指定密钥类型，-f指定生成的密钥文件名称 -C提供一个新注释，如果生成github和gitlab的文件要使用账号
