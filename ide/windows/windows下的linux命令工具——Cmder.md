@@ -17,7 +17,7 @@ Cmder是一个软件包，诞生的原因是因为windows下缺少好用的控�
 ![image.png](2)
 
 ### 2.2 添加cmder到右键菜单
-我们可以知道windows下安装完git后一般会将Git Bash添加到右键菜单里，这样我们可以在任意
+我们可以知道windows下安装完git后一般会将Git Bash添加到右键菜单里，这样我们可以在任意目录里右键都能看到Git Bash，从哪个目录打开的bash，路径都是当前目录。所以把cmder添加到右键菜单是一个
 
 
 ## 常用快捷键
