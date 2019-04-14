@@ -22,4 +22,4 @@ Cmder是一个软件包，诞生的原因是因为windows下缺少好用的控�
 **Shell**
 `Ctrl + Alt + u`: 回退到上一个目录
 `Ctrl + r`: 搜索历史命令
-
+`Shift + mouse`: 从buffer里选择和复制文本
