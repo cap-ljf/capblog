@@ -9,3 +9,4 @@ Cmder是一个软件包，诞生的原因是因为windows下缺少好用的控�
 
 ## 常用快捷键
 
+**Tab manipulation**
