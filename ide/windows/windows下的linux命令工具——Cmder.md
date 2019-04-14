@@ -7,4 +7,5 @@ Cmder官网：[https://cmder.net/](https://cmder.net/)
 *Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start.*
 Cmder是一个软件包，诞生的原因是因为windows下缺少好用的控制台模拟器。它基于令人惊叹的软件，并采用Monokai配色方案和自定义快速布局，从一开始就看起来很性感。
 
-## 二级标题
+## 常用快捷键
+
