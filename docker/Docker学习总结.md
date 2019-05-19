@@ -54,8 +54,18 @@ so，了解了容器的这些基本概念，我们能用容器来干什么呢？
 - pause/unpause
 - create
 - exec
-- 
+#### 容器操作
+- ps 
+- inspect
+- top
+- attach
+- events
+- logs
+- wait
+- export
+- port
 
+#### 容器root
 
 ## Docker镜像
 ## Docker构建本地服务
