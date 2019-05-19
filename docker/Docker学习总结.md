@@ -46,7 +46,15 @@ so，了解了容器的这些基本概念，我们能用容器来干什么呢？
 - 自动重启容器
 - 删除容器
 ### Docker命令大全
-
+#### 容器声明周期管理
+- run
+- start/stop/restart
+- kill
+- rm
+- pause/unpause
+- create
+- exec
+- 
 
 
 ## Docker镜像
