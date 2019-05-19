@@ -65,7 +65,24 @@ so，了解了容器的这些基本概念，我们能用容器来干什么呢？
 - export
 - port
 
-#### 容器root
+#### 容器rootfs命令
+- commit
+- cp
+- diff
+#### 镜像仓库
+- login
+- pull
+- push
+- search
+#### 本地镜像管理
+- images
+- rmi
+- tag
+- build
+- history
+- 
+
+
 
 ## Docker镜像
 ## Docker构建本地服务
