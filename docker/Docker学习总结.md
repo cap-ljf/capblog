@@ -73,12 +73,12 @@ so，了解了容器的这些基本概念，我们能用容器来干什么呢？
 - login 登陆到一个Docker镜像仓库，如果未指定镜像仓库地址，默认为官方仓库 Docker Hub
 - logout 登出一个Docker镜像仓库，如果未指定镜像仓库地址，默认为官方仓库 Docker Hub
 - pull 从镜像仓库中拉取或者更新指定镜像
-- push 
-- search
+- push 将本地的镜像上传到镜像仓库,要先登陆到镜像仓库
+- search 从Docker Hub查找镜像
 #### 本地镜像管理
-- images
-- rmi
-- tag
+- images 列出本地镜像。
+- rmi 删除本地一个或多少镜像。
+- tag 标记本地镜像，将其归入某一仓库。
 - build
 - history
 - save
