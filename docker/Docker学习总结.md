@@ -89,7 +89,11 @@ Docker将这样的文件系统称为镜像。一个镜像可以放到另一个�
 ### 用Dockerfile构建镜像
 这里主要介绍使用Dockerfile构建镜像，并不推荐使用docker commit的方法构建镜像。Dockerfile使用基本的DSL语法的指令来构建一个Docker镜像，使用Dockerfile来构建镜像更具备可重复性、透明性以及幂等性。
 
-一旦有了Dockerfile，我们就可以使用docker build
+一旦有了Dockerfile，我们就可以使用docker build命令基于该Dockerfile中的指令构建一个新的镜像。
+
+**Dockerfile指令**
+#### CMD
+#### 四级标题
 
 ## Docker构建本地服务
 ## Docker编配
