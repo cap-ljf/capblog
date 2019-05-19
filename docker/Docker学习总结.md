@@ -79,13 +79,14 @@ so，了解了容器的这些基本概念，我们能用容器来干什么呢？
 - images 列出本地镜像。
 - rmi 删除本地一个或多少镜像。
 - tag 标记本地镜像，将其归入某一仓库。
-- build
-- history
-- save
-- load
-- import
+- build 命令用于使用 Dockerfile 创建镜像。
+- history 查看指定镜像的创建历史。
+- save 将指定镜像保存成 tar 归档文件。
+- load 导入使用 docker save 命令导出的镜像。
+- import 从归档文件中创建镜像。
 #### info|version
-
+- info 显示 Docker 系统信息，包括镜像和容器数。。
+- version 
 
 
 
