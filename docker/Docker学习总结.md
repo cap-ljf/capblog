@@ -67,12 +67,13 @@ so，了解了容器的这些基本概念，我们能用容器来干什么呢？
 
 #### 容器rootfs命令
 - commit 从容器创建一个新的镜像。
-- cp 
-- diff
+- cp 用于容器与主机之间的数据拷贝。
+- diff 检查容器里文件结构的更改。
 #### 镜像仓库
-- login
-- pull
-- push
+- login 登陆到一个Docker镜像仓库，如果未指定镜像仓库地址，默认为官方仓库 Docker Hub
+- logout 登出一个Docker镜像仓库，如果未指定镜像仓库地址，默认为官方仓库 Docker Hub
+- pull 从镜像仓库中拉取或者更新指定镜像
+- push 
 - search
 #### 本地镜像管理
 - images
