@@ -78,7 +78,7 @@ so，了解了容器的这些基本概念，我们能用容器来干什么呢？
 - version 显示 Docker 版本信息。
 
 ## Docker镜像
-
+Docker镜像是由文件系统叠加而成。
 
 ## Docker构建本地服务
 ## Docker编配
