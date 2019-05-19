@@ -48,12 +48,12 @@ so，了解了容器的这些基本概念，我们能用容器来干什么呢？
 ### Docker命令大全
 #### 容器声明周期管理
 - run 创建一个新的容器并运行一个命令
-- start/stop/restart 启动一个或多个已经被停止的容器
-- kill
-- rm
-- pause/unpause
-- create
-- exec
+- start/stop/restart 启动一个或多个已经被停止的容器、停止一个运行中的容器、重启容器
+- kill 杀掉一个运行中的容器。
+- rm 删除一个或多少容器
+- pause/unpause 暂停容器中所有的进程。恢复容器中所有的进程。
+- create 创建一个新的容器但不启动它
+- exec 
 #### 容器操作
 - ps 
 - inspect
