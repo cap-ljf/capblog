@@ -87,7 +87,9 @@ Docker将这样的文件系统称为镜像。一个镜像可以放到另一个�
 在容器运行时，可以在容器外使用docker commit命令提交定制容器。
 
 ### 用Dockerfile构建镜像
-这里主要介绍使用Dockerfile构建镜像，并不推荐使用docker commit的方法构建镜像。Dockerfile使用基本的DSL语法的
+这里主要介绍使用Dockerfile构建镜像，并不推荐使用docker commit的方法构建镜像。Dockerfile使用基本的DSL语法的指令来构建一个Docker镜像，使用Dockerfile来构建镜像更具备可重复性、透明性以及幂等性。
+
+一旦有了Dockerfile，我们就可以使用docker build
 
 ## Docker构建本地服务
 ## Docker编配
