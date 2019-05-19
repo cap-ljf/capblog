@@ -14,3 +14,6 @@ Docker的目标之一就是缩短代码从开发、测试到部署、上线运�
 - Docker容器
 ### Docker CS架构
 Docker是一个C/S架构的程序。Docker客户端只需向Docker服务器或守护进程发出请求，服务器或守护进程将完成所有工作并返回结构。Docke守护进程也称为Docker引擎。Docker提供了一个命令行工具docker以及一整套RESTful API来与守护进程交互。
+
+### Docker镜像
+镜像是构建Docker世界的基石。用户基于镜像来运行自己的容器，
