@@ -93,7 +93,16 @@ Docker将这样的文件系统称为镜像。一个镜像可以放到另一个�
 
 **Dockerfile指令**
 #### CMD
-#### 四级标题
+#### ENTRYPOINT
+#### WORKDIR
+#### ENV
+#### USER
+#### VOLUME
+#### ADD
+#### COPY
+#### LABEL
+#### STOP
 
 ## Docker构建本地服务
 ## Docker编配
+#### 四级标题
