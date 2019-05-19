@@ -86,7 +86,7 @@ so，了解了容器的这些基本概念，我们能用容器来干什么呢？
 - import 从归档文件中创建镜像。
 #### info|version
 - info 显示 Docker 系统信息，包括镜像和容器数。。
-- version 
+- version 显示 Docker 版本信息。
 
 
 
