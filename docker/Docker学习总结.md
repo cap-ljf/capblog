@@ -19,4 +19,5 @@ Docker是一个C/S架构的程序。Docker客户端只需向Docker服务器或�
 镜像是构建Docker世界的基石。用户基于镜像来运行自己的容器。镜像是基于联合文件系统的一种层式的结构，由一系列指令一步一步构建出来。
 
 ### Registry
-Docker用Registry来保存用户
+Docker用Registry来保存用户构建的镜像。Registry分为共有和私有两种。Docker公司运营的公共Registry叫做Docker Hub。也可以架设自己的私有Registry。
+
