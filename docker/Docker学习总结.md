@@ -101,7 +101,10 @@ Docker将这样的文件系统称为镜像。一个镜像可以放到另一个�
 #### ADD
 #### COPY
 #### LABEL
-#### STOP
+#### STOPSIGNAL
+#### ARG
+#### ONBUILD
+
 
 ## Docker构建本地服务
 ## Docker编配
