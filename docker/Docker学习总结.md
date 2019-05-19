@@ -53,12 +53,12 @@ so，了解了容器的这些基本概念，我们能用容器来干什么呢？
 - rm 删除一个或多少容器
 - pause/unpause 暂停容器中所有的进程。恢复容器中所有的进程。
 - create 创建一个新的容器但不启动它
-- exec 
+- exec 在运行的容器中执行命令
 #### 容器操作
-- ps 
-- inspect
-- top
-- attach
+- ps 列出容器
+- inspect 获取容器/镜像的元数据。
+- top 查看容器中运行的进程信息，支持 ps 命令参数。
+- attach 连接到正在运行中的容器。
 - events
 - logs
 - wait
