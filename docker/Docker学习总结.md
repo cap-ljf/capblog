@@ -59,15 +59,15 @@ so，了解了容器的这些基本概念，我们能用容器来干什么呢？
 - inspect 获取容器/镜像的元数据。
 - top 查看容器中运行的进程信息，支持 ps 命令参数。
 - attach 连接到正在运行中的容器。
-- events
-- logs
-- wait
-- export
-- port
+- events 从服务器获取实时事件
+- logs 获取容器的日志
+- wait 阻塞运行直到容器停止，然后打印出它的退出代码。
+- export 将文件系统作为一个tar归档文件导出到STDOUT。
+- port 列出指定的容器的端口映射，或者查找将PRIVATE_PORT NAT到面向公众的端口。
 
 #### 容器rootfs命令
-- commit
-- cp
+- commit 从容器创建一个新的镜像。
+- cp 
 - diff
 #### 镜像仓库
 - login
